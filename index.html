@@ -1,28 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head lang="es">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<head lang="es">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style/main.css">
+
+    <title>OverCode - Home</title>
+</head>
+
+<body class="bg">
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         
-        <title>OverCode</title>
-    </head>
-    <body>
-        <!-- Image and text -->
-<nav class="navbar fixed-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">
-    <img src="img/Overcode_dark.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    OverCode
-  
-</nav>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="font-family: consolas;">
+          <img src="img/layout_Overcode.png" height="40">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    </nav>
     <br><br>
     <div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">bienvenido a la iniciativa overcode :D</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
-    <h1>Hello, world!</h1>
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">bienvenido a la iniciativa overcode 😄</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">25%</div>
+    </div>
 
-  </body>
+    <div class="footer">
+        <div class="container footer-margin">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Latin Mania</h5>
+                    <ul>
+                        <li><a class="footer-a" href="http://server.frostwolf.xyz/">Inicio</a></li>
+                        <li><a class="footer-a" href="http://server.frostwolf.xyz/updates/index.php">Actualizaciones</a>
+                        </li>
+                        <li><a class="footer-a" href="https://t.me/LatinMania_bot">Bot Telegram</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 info">
+                    <h5>Información</h5>
+                    <p> LatinMania server-ip: frostwolf.xyz </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
