@@ -16,3 +16,15 @@ nav {
     color: whitesmoke;
     font-family: consolas;
 }
+
+.footer{
+    color: whitesmoke;
+    background-color: #212F3C;
+    padding-top: 15px;
+    font-family: consolas;
+    padding-bottom: 30px;
+}
+
+.footer-a{
+    color: whitesmoke;
+}
